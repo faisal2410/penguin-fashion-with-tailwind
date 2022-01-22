@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penguin Fashion</title>
+    <!-- tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                penguin:'#FFFBF0',
+                jacketprice:'#FABE4C',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+    <header class="bg-penguin pb-32 pt-12">
+        <section class="container mx-auto sm:flex items-center justify-around">
+            <div class="space-y-4">
+                <h1 class="text-2xl sm:text-5xl uppercase font-bold">
+                    <span class="text-yellow-400">Be the Penguin</span>
+                    <br>
+                    <span>Of Winter</span>
+                </h1>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <button class="uppercase bg-[#A4BC46] py-4 px-7 rounded-xl text-white font-semibold">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                      </svg>
+                    Buy Now</button>
+            </div>
+            <div class="pt-8 sm:pt-0">
+                <img class="w-1/2 sm:w-full" src="images/model.png" alt="">
+            </div>
+        </section>
+    </header>
+    <main class="container mx-auto bg-[#E5E5E5]">
+        <!-- woman jacket -->
+        <section class="pb-24">
+            <h2 class="text-5xl font-bold">Woman Jacket</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-7 rounded-xl">
+                <!-- Jacket 1 -->
+                <div class="p-4 shadow-lg">
+                    <div class="p-5 bg-slate-100 rounded-xl">
+                        <img src="images/jacket-1.png" alt="">
+                    </div>
+                    <h3 class="text-3xl font-semibold">Yellow Coat Jacket</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sapiente aliquid iusto!</p>
+                    <div class="flex justify-between">
+                        <h2 class="text-5xl text-jacketprice font-bold">$234</h2>
+                        <button class="uppercase bg-[#A4BC46] py-4 px-7 rounded-xl text-white font-semibold">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                              </svg>
+                            Buy Now</button>
+                    </div>
+                </div>
+                <!-- Jacket 2 -->
+                <div class="p-4 shadow-lg rounded-xl">
+                    <div class="p-5 bg-slate-100 rounded-xl">
+                        <img src="images/jacket-2.png" alt="">
+                    </div>
+                    <h3 class="text-3xl font-semibold">Yellow Coat Jacket</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sapiente aliquid iusto!</p>
+                    <div class="flex justify-between">
+                        <h2 class="text-5xl text-jacketprice font-bold">$234</h2>
+                        <button class="uppercase bg-[#A4BC46] py-4 px-7 rounded-xl text-white font-semibold">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                              </svg>
+                            Buy Now</button>
+                    </div>
+                </div>
+                <!-- Jacket 3 -->
+                <div class="p-4 shadow-lg rounded-xl">
+                    <div class="p-5 bg-slate-100 rounded-xl">
+                        <img src="images/jacket-3.png" alt="">
+                    </div>
+                    <h3 class="text-3xl font-semibold">Yellow Coat Jacket</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sapiente aliquid iusto!</p>
+                    <div class="flex justify-between">
+                        <h2 class="text-5xl text-jacketprice font-bold">$234</h2>
+                        <button class="uppercase bg-[#A4BC46] py-4 px-7 rounded-xl text-white font-semibold">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                              </svg>
+                            Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- man jacket -->
+        <section  class="pb-24">
+            <h2 class="text-5xl font-bold">Man Jacket</h2>
+        </section>
+        <!-- our benefits -->
+        <section>
+            <div class="grid grid-cols-2 gap-7">
+                <div class="rounded-lg flex bg-white p-6">
+                    <img class="w-20 h-20" src="images/house.png" alt="">
+                    <div>
+                        <h4 class="text-2xl">Find the Perfect Fit</h4>
+                        <p>Everybody is different, which is why we
+                            offer styles for every body.</p>
+                    </div>
+                </div>
+                <div class="row-span-3">
+                    <img src="images/shopping.png" alt="">
+                </div>
+                <div class="h-32 bg-slate-500">3</div>
+                <div class="h-32 bg-slate-500">4</div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Buy from us</p>
+    </footer>
+</body>
+</html>
